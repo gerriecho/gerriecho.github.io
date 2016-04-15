@@ -274,9 +274,6 @@ h4 {
 	.height {
 		height: 400px;
 	}
-	.small {
-		visibility: visible;
-	}
 	.header {
 		vertical-align: top;
 		height: 50px;
@@ -305,6 +302,9 @@ h4 {
 	}
 	.header {
 		width: 47.5vw;
+	}
+	.small {
+		visibility: visible;
 	}
 	#mightytext, #loyaltext, #lovingtext {
 		width: 250px;
