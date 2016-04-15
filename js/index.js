@@ -1,5 +1,11 @@
 $(function() {
 
+// SCROLL TO TOP
+	$(".logo").click(function() {
+	  $("html, body").animate({ scrollTop: 0 }, "slow");
+	  return false;
+	});
+
 	$('.mighty').hover(function() {
 		$('#mightySection').css('border', '8px solid #FF8700')
 		$('.mightyarrow').css('visibility', 'visible')

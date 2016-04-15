@@ -245,7 +245,7 @@ h2 {
 	border-radius: 50%;
 }
 
-.fa-arrow-circle-o-right {
+.fa-paw {
 	float: right;
 }
 
@@ -265,7 +265,11 @@ h4 {
 		font-size: 1.2em; 
 	}
 	.millie1, .millie2, .millie3 {
-		font-size: 1.5em;
+		font-size: 1.7em; 
+		left: 65vw;
+	}
+	.millie2, .millie3 { 
+		left: 67vw;
 	}
 	.height {
 		height: 400px;
@@ -287,12 +291,6 @@ h4 {
 	}
 	.millie-gif {
 		margin-top: 30px;
-	}
-	.millie1 { 
-		left: 65vw;
-	}
-	.millie2, .millie3 { 
-		left: 67vw;
 	}
 	.fa-th {
 		margin-top: 8px;
@@ -316,7 +314,7 @@ h4 {
 		margin: 10px 5%;
 	}
 	.millie1, .millie2, .millie3 {
-		font-size: 1.7em;
+		font-size: 1.8em;
 	}
 
 @media only screen and (min-width:1100px){
@@ -325,6 +323,9 @@ h4 {
 	}
 	h2 {
 		font-size: 2em; 
+	}
+	.millie1, .millie2, .millie3 {
+		font-size: 2.2em;
 	}
 	#mightytext, #loyaltext, #lovingtext {
 		width: 270px;
@@ -363,5 +364,3 @@ h4 {
 		margin-top: 10px;
 	}
 }
-
-
