@@ -1,0 +1,334 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 40px;
+    color: #FF8700;
+    font-family: 'Josefin Sans', sans-serif; 
+	font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+	font-size: .8em
+}
+
+.mightyarrow, .loyalarrow, .lovingarrow  { 
+	visibility: hidden;
+
+	}
+
+.gray {
+	color: #808080;
+	}
+
+.tagline {
+	font-size: 1.5em;
+	font-weight: 700;
+	padding-left: 70px;
+	}
+
+.header {
+	position: fixed;
+	top: 0;
+	background: #fff;
+	width: 49vw;
+	padding: 10px 0; 
+	height: 50px;
+	z-index: 1;
+	}
+
+.headerleft {
+	left: -2vw;
+}
+
+.headerright {
+	right: -2vw;
+}
+
+.logo {
+	position: fixed;
+	top: 0px;
+	left: 50%;
+	height: 50px;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}
+
+.logo:hover {
+	background-color: #FF8700;
+}
+
+.navlink {
+	padding: 5px;
+	margin-right: 2em; 
+	float: right;
+	vertical-align: top;
+	font-size: 1.3em;
+	font-weight: 700; 
+	text-decoration: none;
+	color: #808080;
+	}
+
+.navlink:hover { 
+	padding: 3px;
+	margin-right: 2em; 
+	float: right;
+	color: #fff; 
+	background: #FF8700;
+	font-weight: 700;
+	border-radius: 5px;
+  	border: 1px solid #FF8700;
+	}
+
+.navlogo {
+	position: fixed;
+	right: 205px;
+	top: 0px;
+	height: 50px;
+	z-index: 2;
+	background-color: #FF8700;
+}
+
+span {
+	color: #FF8700;
+	font-weight: 600;
+}
+
+.small {
+	font-size: .7em;
+	font-weight: 400;
+	padding-left: 1em;
+}
+
+.flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero {
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+	}
+
+.millie-gif {
+	margin-top: 50px;
+	background: url(../images/millie.gif);
+	height: 50vw;
+	width: 50vw;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+.millie { 
+	float: right;
+	margin: 0 auto;
+	padding: 35px;
+}
+
+.center {
+	-webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+}
+
+/*.centerbtn {
+	text-align: center;
+	padding: 3px;
+	font-size: 1.3em;
+	font-weight: 700; 
+	color: #808080;
+}*/
+
+.centerbtn/*:hover*/ { 
+  	display: inline-block;
+	margin: 0px auto;
+	padding: 3px;
+	color: #fff; 
+	background: #FF8700;
+	font-weight: 700;
+	border-radius: 5px;
+  	border: 1px solid #FF8700;
+	}
+
+h2 {
+	margin: 10px 33.3%;
+	font-weight: 700;
+	font-size: 1.5em; 
+	text-align: center;
+}
+
+.mightypic {
+	background: url(../images/mighty1.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.mightypic2 {
+	background: url(../images/mighty2.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.mightypic3 {
+  	background: url(../images/mighty3.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.loyalpic {
+	background: url(../images/loyal1.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.loyalpic2 {
+  	background: url(../images/loyal2.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.loyalpic3 {
+  	background: url(../images/loyal3.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.lovingpic {
+	background: url(../images/loving.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.lovingpic2 {
+	background: url(../images/loving2.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+.lovingpic3 {
+	background: url(../images/loving3.jpg);
+	background-size: cover;
+	height: 30vw;
+	width: 30vw;
+	border-radius: 50%;
+}
+
+.height {
+	height: 600px;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: 400;
+	margin: 10px 10%;
+}
+
+@media only screen and (min-width:360px){
+	body {
+		font-size: .9em; 
+	}
+
+	p {
+		font-size: 1.2em;
+	}
+
+	.tagline {
+	padding-left: 40px;
+	}
+
+	.header {
+		vertical-align: top;
+		height: 25px;
+	}
+	.navlink {
+		padding: 0px;
+	}
+
+	.logo {
+	height: 25px;
+	}
+
+	.navlogo {
+	height: 25px;
+	right: 110px;
+	}
+
+	.millie-gif {
+	margin-top: 10px;
+	}
+
+	.small {
+		visibility: hidden;
+	}
+
+@media only screen and (min-width:600px){
+	body {
+		font-size: 2em; 
+	}
+
+	.small {
+		visibility: visible;
+	}
+
+/*		p {
+		font-size: 1.2em;
+	}*/
+
+	.tagline {
+	padding-left: 40px;
+	}
+
+	.header {
+		vertical-align: top;
+		height: 50px;
+	}
+	.navlink {
+		padding: 5px;
+	}
+
+	.logo {
+	height: 50px;
+	}
+
+	.navlogo {
+	height: 50px;
+	right: 440px;
+	}
+
+	.millie-gif {
+	margin-top: 50px;
+	}
+
+	#mightytext, #loyaltext, #lovingtext {
+		width: 300px;
+	}
+
+@media only screen and (min-width:1000px){
+	body {
+		font-size: 1.5em; 
+	}
+
+@media only screen and (min-width:1200px){
+	h2 {
+		font-size: 2em; 
+	}
+}
+
+
