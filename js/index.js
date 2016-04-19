@@ -6,10 +6,11 @@ $(function() {
 	  return false;
 	});
 
+// HOVER OVER PICS
 	$('.mighty').hover(function() {
 		$('#mightySection').css('border', '8px solid #FF8700')
 		$('.mightyarrow').css('visibility', 'visible')
-		$('.mightyarrow').effect('shake', {times:2}, 800)
+		$('.mightyarrow').effect('pulsate', {times:1}, 500)
 		$('#mightytext').css('visibility', 'visible')
 		$('.mightyword span').css('color', '#ff8700');
 		}, function(){
@@ -22,7 +23,7 @@ $(function() {
 	$('.loyal').hover(function() {
 		$('#loyalSection').css('border', '8px solid #FF8700')
 		$('.loyalarrow').css('visibility', 'visible')
-		$(".loyalarrow").effect('shake', {times:2}, 800)
+		$('.loyalarrow').effect('pulsate', {times:1}, 500)
 		$('#loyaltext').css('visibility', 'visible')
 		$('.loyalword span').css('color', '#ff8700');
 		}, function(){
@@ -35,7 +36,7 @@ $(function() {
 	$('.loving').hover(function() {
 		$('#lovingSection').css('border', '8px solid #FF8700')
 		$('.lovingarrow').css('visibility', 'visible')
-		$(".lovingarrow").effect("shake", {times:2}, 800)
+		$('.lovingarrow').effect('pulsate', {times:1}, 500)
 		$('#lovingtext').css('visibility', 'visible')
 		$('.lovingword span').css('color', '#ff8700');
 		}, function(){
@@ -91,7 +92,7 @@ $(function() {
 		"I got your back, bro"
 		];
 	var lovingText = [
-		"I'm all ears",
+		"whatcha got? I'm all ears",
 		"is it kissy time?",
 		"reporting for belly rub duty"
 		];
