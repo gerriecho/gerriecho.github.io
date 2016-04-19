@@ -56,8 +56,7 @@ $(function() {
     	i++;
     if (i > 2) {
     	i = 0;
-    	}
-
+    }
     	$('#mightySection').attr('class', mightyPics[i]);
     }
 		$('.mighty').click(changeMightyPic)
@@ -66,7 +65,7 @@ $(function() {
     	i++;
     if (i > 2) {
     		i = 0;
-    	}
+   	}
     	$('#loyalSection').attr('class', loyalPics[i]);
     }
 		$('.loyal').click(changeLoyalPic)
@@ -75,7 +74,7 @@ $(function() {
     	i++;
     if (i > 2) {
     		i = 0;
-    	}
+    }
     	$('#lovingSection').attr('class', lovingPics[i]);
     }
 		$('.loving').click(changeLovingPic)		

@@ -158,6 +158,8 @@ span {
 	margin-top: .5em;
 	font-size: 1.5em;
 	font-weight: 700;
+	color: #FF8700;
+	text-align: center;
 }
 
 .aboutpara {
@@ -165,6 +167,7 @@ span {
 	margin: 0em 0em;
 	line-height: 1.5em;
 	color: #808080;
+	padding: 15px 0vw;
 }
 
 .clearfix:after {
@@ -319,16 +322,21 @@ h4 {
 	}
 
 	.abouttitle {
-	width: 33%;
+	/*width: 33%;*/
 	margin-top: .5em;
 	font-size: 1.5em;
 	font-weight: 700;
+	color: #FF8700;
+	text-align: center;
 }
 
 	.aboutpara {
 	font-size: .8em;
 	margin: 0px;
-	padding: 0px;
+	/*padding: 0px;*/
+	line-height: 1.5em;
+	color: #808080;
+	padding: 10px 5vw;
 	line-height: 1.5em;
 	color: #808080;
 }
@@ -362,20 +370,22 @@ h4 {
 	}
 
 	.abouttitle {
-	width: 33%;
-	float: left;
-	text-align: right;
+	/*width: 33%;*/
+	/*float: left;*/
+	/*text-align: right;*/
 	margin-top: .9em;
 	font-size: 1.5em;
 	font-weight: 700;
+	color: #FF8700;
+	text-align: center;
 }
 
 	.aboutpara {
 	font-size: .8em;
-	width: 66%;
-	float: right;
+	/*width: 66%;*/
 	margin-top: .7em;
-	padding: 0px;
+	/*padding: 0px;*/
+	padding: 10px 10vw;
 	line-height: 1.5em;
 	color: #808080;
 }
@@ -401,20 +411,22 @@ h4 {
 	}
 
 	.abouttitle {
-	width: 33%;
-	float: left;
-	text-align: right;
+	/*width: 33%;*/
+	/*float: left;*/
+	/*text-align: right;*/
 	margin-top: .6em;
 	font-size: 1.5em;
 	font-weight: 700;
+	color: #FF8700;
+	text-align: center;
 }
 
 	.aboutpara {
 	font-size: .8em;
-	width: 66%;
-	float: right;
+	/*width: 66%;*/
+	/*float: right;*/
 	margin: 0px;
-	padding: 0px;
+	padding: 10px 15vw;
 	line-height: 1.5em;
 	color: #808080;
 }
@@ -447,21 +459,24 @@ h4 {
 	}
 	
 	.abouttitle {
-	width: 33%;
-	float: left;
-	text-align: right;
+	/*width: 33%;*/
+	/*float: left;*/
+	/*text-align: right;*/
 	margin-top: 1.1em;
 	font-size: 1.5em;
 	font-weight: 700;
+	text-align: center;
+	color: #FF8700;
 	}
 
 	.aboutpara {
 	font-size: .8em;
-	width: 66%;
-	float: right;
+	/*width: 66%;*/
+	/*float: right;*/
 	margin: 1em 0px;
-	padding: 0px;
+	padding: 10px 16vw;
 	line-height: 1.5em;
 	color: #808080;
+	align-content: center;
 	}
 }
